@@ -1,8 +1,11 @@
 import React from 'react'
+import Navber from './layouts.jsx/Navber'
 
 const App = () => {
   return (
-    <div className='bg-red-500 text-5xl'><h1>this is sajib khan</h1></div>
+    <>
+      <Navber/>
+    </>
   )
 }
 
