@@ -11,11 +11,14 @@ export default {
     },
       fontFamily: {
         'pop': ['popins'],
+        'nun': ['Nunito'],
     },
     colors: {
       'piimary': '#1E1E1E',
       'secondary': '#007F5F',
       'third': '#616161',
+      'four': '292929',
+           'bg':'#F8F8F8'
       },
     
   },
