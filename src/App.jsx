@@ -4,6 +4,7 @@ import Banner from './layouts.jsx/Banner'
 import InputCard from './components/InputCard'
 import Travel from './layouts.jsx/Travel'
 import About from './layouts.jsx/About'
+import Popular from './layouts.jsx/Popular'
 const App = () => {
   return (
     <>
@@ -11,6 +12,7 @@ const App = () => {
       <Banner/>
       <Travel/>
       <About/>
+      <Popular/>
      
     </>
   )
