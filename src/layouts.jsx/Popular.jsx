@@ -11,13 +11,13 @@ import  Flex from'../components/Flex'
 import PopularCard from '../components/PopularCard';
 const Popular = () => {
   return (
-    <section className='w-[150px mt-[100px] mb-[200px]'>
+    <section className='w-[150px mt-[px] mb-[200px]'>
         <Container>
         <CommonHeading className='text-center' text='Popular Destination'/>
         <CommonPara className='text-center mx-auto w-[550px] pt-4 pb-[50px]' text='We are self-service data analytics software that lets you create visually appealing data visualizations and 
         insightful dashboards in minutes.'/>
        </Container>
-      <Flex className=''>
+      <Flex className=' justify-center'>
       <PopularCard image={Image1} titale='Lake Thun, Switzerland'/>
       <PopularCard image={Image2} titale='Mount Agung, Bal'/>
       <PopularCard image={Image3} titale='Venice, Italy'/>

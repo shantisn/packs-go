@@ -6,8 +6,8 @@ import Flex from'./Flex'
 import { FaStar } from "react-icons/fa";
 const PopularCard = ({image,titale}) => {
   return (
-    <div className='w-[300px]  bg-white shadow-2xl p-5 rounded-[14px]'>
-     <div className='w-[250px] h-[203px] rounded-[14px]'>
+    <div className='w-[300px]  bg-white hover:shadow-2xl duration:500 p-5 rounded-[14px]'>
+     <div className='w-[250px] h-[150px] rounded-[14px]'>
      <Image className='w-full rounded-[14px]' src={image}/>
      </div>
     <Flex className='gap-x-[6px] items-center pt-9 pb-4'>

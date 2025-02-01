@@ -7,6 +7,10 @@ import Button from '../components/button';
 import { IoMdCheckmark } from "react-icons/io";
 import AboutCard from '../components/AboutCard';
 import AbCard1 from '../assets/AbCard1.png'
+import { HiMiniTrophy } from "react-icons/hi2";
+import { MdManageAccounts } from "react-icons/md";
+import { ImManWoman } from "react-icons/im";
+import { MdAddLocation } from "react-icons/md";
 
 const About = () => {
   return (
@@ -39,10 +43,10 @@ const About = () => {
         </div>
         <div className='w-1/2'>
         <Flex className='flex-wrap gap-[30px]'>
-        <AboutCard src={AbCard1} cardTitle='500K+' cardText='Satisfied Clients'/>
-        <AboutCard src={AbCard1} cardTitle='500K+' cardText='Satisfied Clients'/>
-        <AboutCard src={AbCard1} cardTitle='500K+' cardText='Satisfied Clients'/>
-        <AboutCard src={AbCard1} cardTitle='500K+' cardText='Satisfied Clients'/>
+        <AboutCard src={<MdManageAccounts className=' text-3xl text-[#007F5F]' />} cardTitle='500K+' cardText='Satisfied Clients'/>
+        <AboutCard src={<HiMiniTrophy className=' text-3xl text-[#007F5F]' />} cardTitle='250+' cardText='Active Achieve'/>
+        <AboutCard src={<ImManWoman className=' text-3xl text-[#007F5F]'/>} cardTitle='15K+' cardText='Active Members'/>
+        <AboutCard src={<MdAddLocation className=' text-3xl text-[#007F5F]' />} cardTitle='10K+' cardText='Tour Destinations'/>
         </Flex>
         </div>
 

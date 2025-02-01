@@ -11,8 +11,8 @@ const App = () => {
       <Navber/>
       <Banner/>
       <Travel/>
-      <About/>
       <Popular/>
+       <About/>
      
     </>
   )
