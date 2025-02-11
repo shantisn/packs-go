@@ -14,7 +14,7 @@ export default {
         'nun': ['Nunito'],
     },
     colors: {
-      'piimary': '#1E1E1E',
+      'primary': '#1E1E1E',
       'secondary': '#007F5F',
       'third': '#616161',
       'four': '292929',
