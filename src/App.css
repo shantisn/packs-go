@@ -1,6 +1,9 @@
 .one{
-  background: #a8a4a4;
+  background: #bdbbbb;
 }
 .two{
-  background: #7d87841a;
+  background: hsla(199, 11%, 56%, 0.102);
+}
+.three{
+  background: #a7c8df;
 }

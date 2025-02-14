@@ -5,6 +5,7 @@ import  Travel from'../layouts/Travel'
 import  Popular from'../layouts/Popular'
 import  About from'../layouts/About'
 import  Pomotion from'../layouts/Pomotion'
+import MoneyPart from '../layouts/MoneyPart';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
    <Popular/>
    <About/>
    <Pomotion/>
+   <MoneyPart/>
 
     </>
   );
