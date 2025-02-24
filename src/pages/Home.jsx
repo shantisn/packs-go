@@ -7,6 +7,7 @@ import  About from'../layouts/About'
 import  Pomotion from'../layouts/Pomotion'
 import MoneyPart from '../layouts/MoneyPart';
 import Testi from'../layouts/Testi';
+import Subscribe from'../layouts/Subscribe';
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
    <Pomotion/>
    <MoneyPart/>
    <Testi/>
+   <Subscribe/>
 
     </>
   );
