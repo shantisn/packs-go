@@ -13,7 +13,7 @@ import Flex from'../components/Flex'
 import CommonHeading from '../components/CommonHeading';
 const Testi = () => {
   return (
-    <section className=' my-20 '>
+    <section className=' my-5 '>
        
       <Container>
       <Flex>

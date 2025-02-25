@@ -14,7 +14,7 @@ import { IoIosArrowUp } from 'react-icons/io'
 import { MdOutlineKeyboardArrowDown } from 'react-icons/md'
 const MoneyPart = () => {
   return (
-    <section>
+    <section className='py-[100px]'>
         <Container>
             <Flex>
           <div className='w-2/4'>
