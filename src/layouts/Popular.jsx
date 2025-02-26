@@ -19,7 +19,7 @@ const Popular = () => {
        </Container>
       <Flex className=' justify-center'>
       <PopularCard image={Image1} titale='Lake Thun, Switzerland'/>
-      <PopularCard image={Image2} titale='Mount Agung, Bal'/>
+      <PopularCard image={Image2} titale='Mount Agung, Bali'/>
       <PopularCard image={Image3} titale='Venice, Italy'/>
       <PopularCard image={Image4} titale='Paris, France'/>
       <PopularCard image={Image5} titale='Santorini, Greece'/>

@@ -9,6 +9,7 @@ import MoneyPart from '../layouts/MoneyPart';
 import Testi from'../layouts/Testi';
 import Subscribe from'../layouts/Subscribe';
 import Destination from '../layouts/Destination';
+import Splace from '../layouts/splace';
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
    <Pomotion/>
    <MoneyPart/>
    <Destination/>
+   <Splace/>
    <Testi/>
    <Subscribe/>
 

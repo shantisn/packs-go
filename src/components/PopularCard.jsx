@@ -1,7 +1,6 @@
 import React from 'react'
-
 import Image from'./Image'
-import Button from'./Button'
+import Button from './Button'
 import Flex from'./Flex'
 import { FaStar } from "react-icons/fa";
 const PopularCard = ({image,titale}) => {
