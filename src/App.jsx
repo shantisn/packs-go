@@ -9,6 +9,7 @@ import Thailand from './pages/Thailand';
 import Italy from './pages/Italy';
 import Mexico from './pages/Mexico';
 import Korea from './pages/Korea';
+import Vietnam from './pages/Vietnam';
 import {
   createRoutesFromElements,
   createBrowserRouter,
@@ -46,7 +47,7 @@ const router = createBrowserRouter(
       element={<Blogs />}>
     </Route>
     <Route
-      path="/Thailand"
+      path="/thailand"
       element={<Thailand />}>
     </Route>
     <Route
@@ -60,6 +61,10 @@ const router = createBrowserRouter(
     <Route
       path="Korea"
       element={<Korea/>}>
+    </Route>
+    <Route
+      path="/vietnam"
+      element={<Vietnam/>}>
     </Route>
    </>
   )

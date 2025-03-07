@@ -10,6 +10,7 @@ import { FaTwitter } from 'react-icons/fa6';
 import { FaPinterest } from 'react-icons/fa';
 
 
+
 const Footer = () => {
   return (
     <section className='pt-20 pb-[130px]'>
@@ -30,7 +31,7 @@ const Footer = () => {
             </ul>
             </div>
             <div className='w-2/12'>
-            <FooterUl headingSix='Tour' liOne='Thailand' liTwo='Vietnam' liTree='korea' liFour='Mexico' liFive='Italy'/>
+            <FooterUl headingSix='Tour' liOne='Thailand' liOneRef='/thailand' liTwo='Vietnam' liTwoRef='/vietnam'liTree='korea'liTreeRef='/korea' liFour='Mexico' liFourRef='/Mexico'liFive='Italy' liFiveRef='/Italy' />
             </div>
             <div className='w-2/12'>
             <FooterUl headingSix='Suport' liOne='Acount' liTwo='Legal' liTree='Contact' liFour='Mexico' liFive='Italy'/>
@@ -41,6 +42,7 @@ const Footer = () => {
             
         </Flex>
       </Container>
+     
     </section>
   );
 }
