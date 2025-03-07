@@ -1,16 +1,21 @@
 import React from 'react';
-import {
-  createRoutesFromElements,
-  createBrowserRouter,
-  Route,
-  RouterProvider,
-} from "react-router-dom";
 import Home from './pages/Home';
 import Tours from './pages/Tours';
 import Booking from './pages/Booking';
 import Pages from './pages/Pages';
 import Blogs from './pages/Blogs'
 import Features from './pages/Features'
+import Thailand from './pages/Thailand';
+import Italy from './pages/Italy';
+import Mexico from './pages/Mexico';
+import Korea from './pages/Korea';
+import {
+  createRoutesFromElements,
+  createBrowserRouter,
+  Route,
+  RouterProvider,
+} from "react-router-dom";
+
 const router = createBrowserRouter(
   createRoutesFromElements(
    <>
@@ -39,6 +44,22 @@ const router = createBrowserRouter(
     <Route
       path="/blogs"
       element={<Blogs />}>
+    </Route>
+    <Route
+      path="/Thailand"
+      element={<Thailand />}>
+    </Route>
+    <Route
+      path="/Italy"
+      element={<Italy />}>
+    </Route>
+    <Route
+      path="Mexico"
+      element={<Mexico/>}>
+    </Route>
+    <Route
+      path="Korea"
+      element={<Korea/>}>
     </Route>
    </>
   )

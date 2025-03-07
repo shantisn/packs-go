@@ -19,7 +19,7 @@ const Splace = () => {
         <Container>
        
             <Flex className='justify-center'>
-            <SplaceCard image={Image1} titale='Lake Thun, Switzerland' icon={<GiSelfLove/>} text='Switzerland' />
+            <SplaceCard image={Image1} titale='Lake Thun, Switzerland' icon={<GiSelfLove/>} text='Switzerland'/>
             
             <SplaceCard  image={Image2} titale='Mount Agung, Bali' icon={<GiSelfLove/>} text='Bali'/>
             

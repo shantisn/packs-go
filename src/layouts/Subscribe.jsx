@@ -8,7 +8,7 @@ const Subscribe = () => {
     <Container>
     <CommonHeading className='text-white w-[580px] text-center mx-auto leading-[50px]'
      text='Subscribe To Get The Latest News About Us'/>
-     <CommonPara className='w-[500px] text-[#e1f7a6] w-[500px] font-pop font-normal text-base text-center mx-auto py-8'
+     <CommonPara className='w-[500px]text-[#e1f7a6] w-[500px] font-pop font-normal text-base text-center mx-auto py-8'
       text='We Recommended you to subscribe to our newspaperm,
 
       enter your email below to get daily update about us.'/>

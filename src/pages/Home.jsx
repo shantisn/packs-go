@@ -10,6 +10,7 @@ import Testi from'../layouts/Testi';
 import Subscribe from'../layouts/Subscribe';
 import Destination from '../layouts/Destination';
 import Splace from '../layouts/splace';
+import Footer from '../layouts/Footer';
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
    <Splace/>
    <Testi/>
    <Subscribe/>
+   <Footer/>
 
     </>
   );
