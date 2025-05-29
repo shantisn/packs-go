@@ -13,32 +13,34 @@ import { FaPinterest } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <section className='pt-20 pb-[130px]'>
+    <section className='pt-20 pb-[130px] sm:px-20 sm:pb-[80px]'>
       <Container>
-        <Flex>
+        <Flex className='flex-col mx-2 md:flex-row'>
             <div className='w-6/12'>
-            <Image src={logo1}/>
-            <ul className='flex gap-x-[30px] py-[30px]'>
+            <Image src={logo1}className=''/>
+            <ul className='flex gap-x-[10px] md:gap-x-[30px] py-3 md:py-[30px]'>
                 <li><FaFacebook className='text-4xl text-blue-500' /></li>
                 <li><IoLogoLinkedin className='text-4xl text-blue-500' /></li>
                 <li><FaTwitter className='text-4xl text-blue-500'/></li>
                 <li><FaPinterest className='text-4xl text-red-600' /></li>
             </ul>
-            <ul className='list-none font-pop font-normal text-base text-third flex flex-col gap-y-1.5'>
+            <ul className='list-none font-pop font-normal text-base text-third flex flex-col pb-4 gap-y-1.5'>
               <li>Business number : +12 12489877</li>
               <li>Doctor 3131 Drive, LA, California</li>
               <li>Complaints/Enqures: pack&go@gmail.com</li>
             </ul>
             </div>
+           
             <div className='w-2/12'>
-            <FooterUl headingSix='Tour' liOne='Thailand' liOneRef='/thailand' liTwo='Vietnam' liTwoRef='/vietnam'liTree='korea'liTreeRef='/korea' liFour='Mexico' liFourRef='/Mexico'liFive='Italy' liFiveRef='/Italy' />
+           <FooterUl headingSix='Tours' liOne='Thailand' liOneRef='/thailand' liTwo='Vietnam' liTwoRef='/vietnam'liTree='korea'liTreeRef='/korea' liFour='Mexico' liFourRef='/Mexico'liFive='Italy' liFiveRef='/Italy' />
             </div>
             <div className='w-2/12'>
             <FooterUl headingSix='Suport' liOne='Acount' liTwo='Legal' liTree='Contact' liFour='Mexico' liFive='Italy'/>
             </div>
-            <div className='w-2/12'>
+            <div className='md:w-2/12'>
             <FooterUl headingSix='Useful Pages' liOne='Deals' liTwo='Facts' liTree='Why chose Us' liFour='Subscribe' />
             </div>
+            
             
         </Flex>
       </Container>

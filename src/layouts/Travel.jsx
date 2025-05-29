@@ -15,8 +15,8 @@ const Travel = () => {
   return (
     <section className='py-[150px]'>
       <Container>
-     <CommonHeading className=" text-center" text='Travel Benefit For User'/>
-     <CommonPara className="w-[550px] text-center mx-auto pt-5 pb-[112px]" text='We are self-service data analytics software that lets you create visually appealing data visualizations and insightful dashboards in minutes.'/>
+     <CommonHeading className=" text-[24px] text-center" text='Travel Benefit For User'/>
+     <CommonPara className=" mx-auto md:w-[550px] text-center md:mx-auto pt-5 pb-[112px]" text='We are self-service data analytics software that lets you create visually appealing data visualizations and insightful dashboards in minutes.'/>
       <Flex className='flex-wrap gap-[30px]'>
       <TravelCard cardtitle='Cheap than Other' cardtext='Travelya is cheaper than other travel agency.'
       src={Icon1}/>

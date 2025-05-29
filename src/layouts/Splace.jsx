@@ -15,10 +15,10 @@ import TestiImgOne from'../assets/TestiImgOne.png'
 
 const Splace = () => {
   return (
-    <section className='mt-12'>
+    <section className='mx-3 md:mt-12'>
         <Container>
        
-            <Flex className='justify-center'>
+            <Flex className='md:!flex !block justify-center'>
             <SplaceCard image={Image1} titale='Lake Thun, Switzerland' icon={<GiSelfLove/>} text='Switzerland'/>
             
             <SplaceCard  image={Image2} titale='Mount Agung, Bali' icon={<GiSelfLove/>} text='Bali'/>

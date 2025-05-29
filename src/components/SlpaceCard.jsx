@@ -7,7 +7,7 @@ const SlpaceCard = ({image,titale, icon, text}) => {
     <div className='w-[300px]  bg-white hover:shadow-md duration:500 p-5 rounded-[14px]'>
      <div className='w-[250px] h-[150px] rounded-[14px] relative '>
      <Image className='w-full rounded-[14px] ' src={image}/>
-     <a className='absolute z-50 top-5 right-5 w-10 h-10 bg-white text-xl text-red-500 rounded-[50%] flex justify-center items-center' href="">{icon}</a>
+     <a className='absolute z-50 top-4 right-5 w-10 h-10 bg-white text-xl text-red-500 rounded-[50%] flex justify-center items-center' href="">{icon}</a>
      </div>
      <h4 className='text-2xl text-primary font-pop  font-medium pt-5'>{titale}</h4>
      <p className='text-base text-third font-pop  font-normal py-5'>Consectetur adipiscing elit, sed do eiusmod tempor incididunt 

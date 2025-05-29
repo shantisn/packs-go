@@ -13,21 +13,21 @@ import Flex from'../components/Flex'
 import CommonHeading from '../components/CommonHeading';
 const Testi = () => {
   return (
-    <section className=' my-5 '>
+    <section className='md:my-5 '>
        
       <Container>
-      <Flex>
-        <div className='w-1/2 relative'> <Image className='absolute top-[150px] right-[10px]' src={TestiImage1}/>
-     <Image className=' w-[100px] absolute top-[400px] right-[500px]' src={TestiImg2}/>
-     <Image className=' w-[80px] absolute top-[300px] right-[300px]' src={TestiImg3}/>
-     <Image className=' w-[100px] absolute top-[450px] right-[300px]' src={TestiImg4}/>
-     <Image className=' w-[70px] absolute top-[400px] right-[10px]' src={TestiImg5}/>
+      <Flex className='md:!flex !block'>
+        <div className='md:w-1/2 relative'> <Image className='absolute top-14 md:top-[120px] right-[20px] md:right-[40px]' src={TestiImage1}/>
+     <Image className='w-20 md:w-[100px] absolute top-[250px]  md:top-[400px] right-[230px] md:right-[500px]' src={TestiImg2}/>
+     <Image className='md:w-[80px] absolute top-44  md:top-[270px] right-[140px]  md:right-[300px]' src={TestiImg3}/>
+     <Image className='w-20 md:w-[100px] absolute top-[330px] md:top-[450px] right-[130px] md:right-[300px]' src={TestiImg4}/>
+     <Image className='md:w-[70px] absolute top-[250px]  md:top-[400px] right-5 md:right-[50px]' src={TestiImg5}/>
         </div>
-        <div className='w-1/2 pl-[179px] '> 
-        <CommonHeading  className='pt-[264px]  text-primary text-10 font-pop font-semibold' text='Testimonial'/>
+        <div className='mx-4 pb-20 md:w-1/2 md:pl-[179px] '> 
+        <CommonHeading  className='pt-[450px] md:pt-[264px]  text-primary text-10 font-pop font-semibold' text='Testimonial'/>
         <Image className=' pt-[25px]'  src={vactorOne}/>
         <CommonPara className='  pt-[20px]' text='Since 2014, we’ve helped more than 500,000 people  of all ages enjoy the best outdoor
-         experience of their lives. Whether it’s for one day or a two-week vacation'/>
+         experience of their lives. Whether it’s for one day or a t-wo-week vacation'/>
        
             <p className=' text-primary text-xl font-semibold font-pop'>Farah smith - Visitor</p>
             <Image className='w-[20] pt-[18px]' src={TestiImgOne}/>
